@@ -28,7 +28,7 @@
   </head>
   <body>
     <!-- Header -->
-    <header class="max-w-[1440px] bg-yellow-50 mx-auto px-32 pb-16">
+    <header class="max-w-[1440px] bg-yellow-50 mx-auto px-4 md:px-32 pb-16">
       <!-- Nav -->
       <nav class="flex justify-between items-center py-10">
         <a href="" class="flex items-center font-bebas text-2xl font-monserat"
@@ -37,14 +37,14 @@
           ><span class="text-[#363958] ml-1">Fashion</span></a
         >
         <ul
-          class="flex items-center gap-14 capitalize font-roboto font-normal text-lg text-[#3C3C3C]"
+          class="hidden md:flex flex-row items-center gap-14 capitalize font-roboto font-normal text-lg text-[#3C3C3C]"
         >
           <li><a href="">home </a></li>
           <li><a href="">products </a></li>
           <li><a href="">about us </a></li>
           <li><a href="">contact us</a></li>
         </ul>
-        <button class="hidden">
+        <button class="block md:hidden">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -62,7 +62,7 @@
         </button>
       </nav>
       <!-- Banner -->
-      <div class="flex items-center justify-between">
+      <div class="flex items-center flex-col gap-3 md:justify-between">
         <div class="space-y-2">
           <h3 class="font-bebas text-7xl text-[#FABE4C]">
             Be the Penguins <br />
